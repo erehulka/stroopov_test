@@ -1,3 +1,10 @@
+# stroopov_test
+App (in Slovak) to perform Stroop test, with colors and boxes. Written in Svelte.
+
+
+
+---
+
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---

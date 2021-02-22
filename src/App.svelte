@@ -55,9 +55,9 @@
 <main>
 	{#if !start && !stop}
 		<div class="starting">
-			<p><strong>Inštrukcie:</strong><br>
-				Po spustení testu sa na obrazovke objaví farebne vyznačený text. Zakliknite farbu textu, nie to čo text znamená.<br>
-				V druhej časti testu sa objaví obdĺžnik s textom umiestneným v strede, naľavo alebo napravo. Tu treba označiť čo sa v texte nachádza, nie kde sa text nachádza.</p>
+			<p><strong>Inštrukcie:</strong><br><br>
+				Po spustení testu sa na obrazovke objaví farebne vyznačený text. Zakliknite <strong>farbu textu</strong>, nie textovú hodnotu.<br>
+				V druhej časti testu sa objaví obdĺžnik s textom umiestneným v strede, naľavo alebo napravo. Tu treba označiť <strong>textovú hodnotu</strong>, nie kde sa text nachádza.</p>
 			<button id="start_button" on:click={startTest}></button>
 		</div>
 	{:else if start}

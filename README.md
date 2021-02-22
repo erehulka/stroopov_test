@@ -1,5 +1,6 @@
 # stroopov_test
 App (in Slovak) to perform Stroop test, with colors and boxes. Written in Svelte.
+Demo: [https://stropov-test-erehulka.vercel.app/](https://stropov-test-erehulka.vercel.app/)
 
 
 ---
